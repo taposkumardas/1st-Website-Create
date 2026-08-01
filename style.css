@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    cursor: pointer;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 8px 0;
+}
+header{
+    background-color: #fff8f3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    }
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+    }
+.logo-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+.hero-parent-root{
+background-color: #fff8f3;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    }
+.hero-left-p-1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 20px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-parent{
+    margin: 60px auto;
+   text-align: center;
+}
+.what-i-do-card-container{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.what-i-do-card-container .what-i-do-card{
+border: 2px solid #FD6E0A;
+padding: 10px;
+border-radius: 10px;
+text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: rgb(129, 127, 127);
+    font size: 15px;
+}
+.resume{
+    max-width: 1100px;
+    margin: 80px auto;
+}
+
+.resume-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 40px;
+}
+
+.education,
+.experience{
+    width: 50%;
+}
+
+.education h3,
+.experience h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.resume-item h4{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.resume-item h5{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.resume-item p{
+    color: gray;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+.below-btn{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.my-amazing-parent{
+    text-align: center;
+    }
+.gallary{
+    margin-top: 20px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr );
+}
+.gallary img{
+    height: 100%;
+    width: 100%
+    object-fit:cover;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 70px !important;
+    background-color: #fff8f3;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer form{
+    padding: 20px;
+.footer-left p{
+    margin: 30px 0;
+}
+}
+footer form input, footer form textarea{
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.footer-icon-parent span{
+   color: #FD6E0A;
+   font-size: 50px;
+}
+.footer-link-parent{
+    color: blue;
+    font-size: 100px;
+}
